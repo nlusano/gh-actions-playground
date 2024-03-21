@@ -5,6 +5,8 @@ name: CI
 # Controls when the workflow will run
 on:
   pull_request:
+    types:
+      - closed
   merge_group:
   workflow_dispatch:
 
